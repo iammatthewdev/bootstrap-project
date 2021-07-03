@@ -1,0 +1,193 @@
+body {
+  background-color: #cfd8dc;
+  line-height: 1.8;
+}
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.8;
+  letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5 { 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%; 
+    font-weight: 700;
+ }
+
+h6 { 
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; 
+  font-weight: 700;
+  line-height: 2.8;
+}
+
+ul {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+ .title {
+    padding: 5px; 
+    font-family: 'Open Sans', sans-seri;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: 1px;
+ }
+ .sub-title {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 1.8;
+    color: #1dafbc;
+ }
+
+ .min-title {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #1dafbc;
+}
+
+.skills {
+  margin-top: -15rem;
+  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  border: whitesmoke solid;
+  border-radius: 1rem;
+}
+
+.skills-left {
+  background-color: whitesmoke solid;
+}
+
+ .profile {
+   padding: 3rem;
+   border-radius:30rem;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+   height: auto;
+ }
+
+ .profile-sm {
+  padding: 3rem;
+  border-radius:30rem;
+  margin-top: -10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: auto;
+}
+
+ .row-content {
+   padding: 50px 0;
+   min-height: 200px;
+}
+
+ .fa {
+   width: 28px;
+   height: 28px;
+   line-height: 28px;
+   color: white;
+   border: 0px solid #e0e0e0;
+ }
+
+ .jumbotron {
+  padding: 8rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: .3rem;
+  min-height: 600px;
+}
+.about-me {
+  background-color: #7510f7;
+  color: whitesmoke;
+}
+
+.img-webdesign {
+  width: 500px;
+  display: block;
+
+}
+ .btn-primary {
+   display: inline-block;
+   position: relative;
+   padding: .8em 2.1em;
+   margin-bottom: .75em;
+   margin-right: .25em;
+   font-size: 1em;
+   font-weight: 300;
+   line-height: 1.2;
+   border: 0;
+   outline: 0;
+   border: 2px solid #7510f7;
+   color: #222;
+   text-shadow: none;
+   background-color: #fff;
+   border-radius: 30px;
+   box-shadow: 0px 10px 10px -8px rgba(0,0,0,.22);
+ }
+ .btn-secondary {
+  display: inline-block;
+  position: relative;
+  padding: .8em 2.1em;
+  margin-bottom: .75em;
+  margin-right: .25em;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.2;
+  border: 0;
+  outline: 0;
+  border: 2px solid #7510f7;
+  color: #222;
+  text-shadow: none;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 10px 10px -8px rgba(0,0,0,.22);
+}
+
+.btn-primary:hover {
+  background-color: #7510f7;
+  color: whitesmoke;
+  border: 2px solid #7510f7;
+}
+
+.site-footer {
+  background-color: #7510f7;
+  color: whitesmoke;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.site-footer p {
+  line-height: 2.8;
+}
+
+.site-footer a {
+  color: white;
+}
+
+.footer-bar {
+  background-color: #141c3a;
+  margin-bottom: -2rem;
+}
+
+.footer-logo {
+  padding-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;
+  height: auto;
+
+}
+
+#contactModal .modal-header {
+  background-color: #7510f7;
+  color: white; }
+

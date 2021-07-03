@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hind:wght@300;500;600;800&family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Matthew Evans - Full Stack Developer</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo100x100.png" alt="logo" width="60" height="60" class="d-inline-block align-text-top" />
+      </a>
+      <div class="d-grid gap-2 d-md-block">
+        <a role="button" class="btn btn-primary" id="contactButton">Say Hello!</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CONTACT FORM MODAL -->
+
+  <div id="contactModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title">How can I help you today?</h3>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <form>
+              <div class="form-group row">
+                <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                <div class="col-md-10">
+                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email</label>
+                <div class="col-md-10">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="message" class="col-md-2 col-form-label">Your Message</label>
+                <div class="col-md-10">
+                  <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="offset-md-2 col-md-10">
+                  <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row-content mx-auto d-block">
+      <div class="text-center">
+        <img class="profile" src="images/profile-pride.JPG" alt="Matthew Evans" />
+        <h1 class="title">Full Stack & Mobile Application Developer </h1>
+        <p class="lead sub-title">In a galaxy far, far away, I write beautifully code.</p>
+      </div>
+    </div>
+    <div class="row">
+      <img src="images/programming.png" class="img-webdesign mx-auto d-block" alt="Web Design" />
+    </div>
+  </div>
+
+  <div class="jumbotron about-me">
+    <div class="container">
+      <h3 class="title text-center">Hi, I’m Matt. Nice to meet you.</h3>
+      <p class="text-center">I live in Kirkland, WA with my beautiful wife and our dogs Charlie and Eleven. When I’m not
+        working, you’ll find me spending time with friends, eating pizza (hint: favorite food), listening to music,
+        hiking, or traveling. I also enjoying photography.</p>
+    </div>
+  </div>
+  <div class="container skills">
+    <div class="row row-content">
+      <div class="col">
+        <img class="mx-auto d-block" src="images/web-programming.png" width="64" height="auto"
+          alt="Front-end Developement Icon" />
+      </div>
+      <div class="col">
+        <img class="mx-auto d-block" src="images/backend.png" width="64" height="auto"
+          alt="Back-end Developement Icon" />
+      </div>
+      <div class="col">
+        <img class="mx-auto d-block" src="images/mobile-app.png" width="64" height="auto"
+          alt="Mobile App Developement Icon" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="text-center">
+          <h6>Front-end Developer</h6>
+          <p class="min-title">Languages I speak:</p>
+          <p>HTML,CSS, Sass, Javascript</p>
+          <p class="min-title">Dev Tools:</p>
+          <ul class="list-unstyled">
+            <li>VS Code</li>
+            <li>Atom</li>
+            <li>Bootstrap</li>
+            <li>Codepen</li>
+            <li>GIT</li>
+            <li>Github</li>
+            <li>Jquery</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <h6>Back-end Developer</h6>
+          <p class="min-title">Languages I speak:</p>
+          <p>NodeJS, Python</p>
+          <p class="min-title">Dev Tools:</p>
+          <ul class="list-unstyled">
+            <li>VS Code</li>
+            <li>Atom</li>
+
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="text-center">
+          <h6>Mobile App Developer</h6>
+          <p class="min-title">Languages I speak:</p>
+          <p>React Native, Objective-C, Swift</p>
+          <p class="min-title">Dev Tools:</p>
+          <ul class="list-unstyled">
+            <li>VS Code</li>
+            <li>Atom</li>
+            <li>Xcode</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row-content">
+      <div class="container">
+        <h3 class="title">My Recent Work</h3>
+        <p class="text-center">Here are a few design projects I've worked on recently. Want to see more? Email me.</p>
+      </div>
+    </div>
+    <div class="row row-content">
+      <div class="col">
+        <img class="rounded mx-auto d-block"" src=" images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+      <div class="col">
+        <img class="rounded mx-auto d-block" src="images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+
+      <div class="col">
+        <img class="rounded mx-auto d-block" src="images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+    </div>
+    <div class="row row-content">
+      <div class="col">
+        <img class="rounded mx-auto d-block"" src=" images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+      <div class="col">
+        <img class="rounded mx-auto d-block" src="images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+      <div class="col">
+        <img class="rounded mx-auto d-block" src="images/placeholder.jpg" alt="Web Design" width="250" height="250" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row row-content">
+        <img src="images/me-white.png" class="footer-logo" alt="Logo" />
+      </div>
+      <div>
+        <p class="mx-auto">Matthew Evans, Full Stack & Mobile Application Developer</p>
+      </div>
+      <div class="text-center social-links">
+        <a class="btn btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a class="btn btn-social-icon" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a class="btn btn-social-icon" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+
+        <p><small>Handcrafted by me and designed with <a href="https://getbootstrap.com/"> Bootstrap</a></small></p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</html>
